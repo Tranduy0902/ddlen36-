@@ -422,11 +422,12 @@ http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8
 http://118.69.169.41:1935/THDT/thdttv/chunklist_w1866045054.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Fm6ZT1J/thdt2-BEARTV.png", Đồng Tháp 2 - Miền Tây
 http://202.43.109.145:1935/thdt2/thdt2/chunklist_w1048334863.m3u8
-#EXTINF:-1 tvg-id="HANOITV 1" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Y8bq8Fp/HANOI1-TV-BEARTV.png" ,Hà Nội 1 HD
+BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_720p/chunks_dvr_range-${start}-${offset}.m3u8",Hà Nội 1 HD
 #EXTVLCOPT:http-user-agent="BearTV"
-#https://livecdn.fptplay.net/sdc/hanoitv1_hls.smil/chunklist_b2500000.m3u8
-https://live.hanoitv.vn/hntvlive/tv1live.m3u8?vhost=__defaultVhost__
-#http://cdn.hntv.mediatech.vn/hntvlive/tv1live480.m3u8
+https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_1080p/chunks.m3u8
+#EXTINF:-1 tvg-id="HANOITV 2" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/L5bfkfQ/HANOI2-TV-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_720p/chunks_dvr_range-${start}-${offset}.m3u8",Hà Nội 2 HD
+#EXTVLCOPT:http-user-agent="BearTV"
+https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_1080p/chunks.m3u8
 #EXTINF:-1 tvg-id="HANOITV 2" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/L5bfkfQ/HANOI2-TV-BEARTV.png",Hà Nội 2 HD
 #EXTVLCOPT:http-user-agent="BearTV"
 #https://livecdn.fptplay.net/sdc/hanoitv2_hls.smil/chunklist_b2500000.m3u8
@@ -450,10 +451,11 @@ https://livecdn.fptplay.net/sdb/backan_hls.smil/chunklist_b2500000.m3u8
 #http://113.160.162.131:8080/tv/bk.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Hp6pHKp/TUYENQUANG-BEARTV.png", Tuyên Quang
 https://livecdn.fptplay.net/sda/tuyenquang_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/2PgPvnB/thainguyen1-BEARTV.png", Thái Nguyên
 https://tacnghiep.thainguyentv.vn/hls/livestream.m3u8
+#EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/2PgPvnB/thainguyen1-BEARTV.png", Thái Nguyên
+https://streaming.thainguyentv.vn/hls/livestream.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/z5Q0bkz/sonlatv-BEARTV.png", Sơn La
-http://118.107.85.5:1935/live/smil:STV.smil/chunklist_w1744292611_b1384000.m3u8
+https://lms-public-ingest.swiftfederation.com/sltvlive/tv1live-transmux.m3u8
 #EXTINF:0 tvg-id="" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/8PdwJC0/LSTV-BEARTV.png", Lạng Sơn
 http://cdn.lstv.mediatech.vn/lstvlive/tv1live.m3u8
 #EXTINF:0 tvg-id="" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/5hkJWkY/Quang-Ninh1-BEARTV.webp", Quảng Ninh 1
@@ -512,7 +514,8 @@ http://livecdn.fptplay.net/sda/quangngai_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id=" "group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/GsJjkP1/QUANGNAM-BEARTV.png",Quảng Nam
 http://113.161.6.157:8081/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id=" "group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/JnH32XZ/Quang-Tri-BEARTV.png",Quảng Trị
-http://mediatech.vncdn.vn/qrtvlive/tv1live.m3u8
+#EXTVLCOPT:http-user-agent="BearTV"
+https://livecdn.fptplay.net/sdc/quangtri_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/tY2nv03/BINHTHUAN-BEARTV.png", Bình Thuận
 #EXTVLCOPT:http-user-agent="BearTV"
 https://livecdn.fptplay.net/sdc/binhthuan_hls.smil/chunklist_b2500000.m3u8
@@ -547,17 +550,14 @@ https://livecdn.fptplay.net/sda/dongnai2_hls.smil/chunklist_b2500000.m3u8
 #http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist_w1270205647_b1384000.m3u8
 #EXTINF:-1 tvg-id="dongnai3" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/bFkn8Di.png", Đồng Nai 3 
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 
-https://code.television4you.xyz/getlink/diaphuong?kenh=dnlive&id=dnrtv3 
-#EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/qSe6hf3.png", Đồng Nai 9
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-https://livecdn.fptplay.net/sda/skymart_hls.smil/chunklist_b2500000.m3u8
+https://code.television4you.xyz/getlink/diaphuong?kenh=dnlive&id=dnrtv3
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/QbtMB5F/TAYNINH11-BEARTV.png", Tây Ninh
 http://202.43.109.142:1935/ttv11/tntv/chunklist.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/1G1QSGf/ninhthuan-BEARTV.png", Ninh Thuận
-https://ninhthuantv.vn/api/httpsline/aHR0cDovLzIwMi40My4xMDkuMTQyOjE5MzUvTlRWL250dnR2&chunklist_w279984428.m3u8
+https://60acee235f4d5.streamlock.net/live/mystream/chunklist_w1911661624.m3u8
 #EXTINF:-1 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/sQw9Z3v/baclieutv-BEARTV.png", Bạc Liêu
 #EXTVLCOPT:http-user-agent="BearTV"
-https://livecdn.fptplay.net/sdc/baclieu_hls.smil/chunklist_b2800000.m3u8
+https://livecdn.fptplay.net/sdc/baclieu_2000.stream/chunklist.m3u8
 #https://tv.thbl.vn/live/tv/tv.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/1zRv1bF/BENTRE-BEARTV.png", Bến Tre
 #EXTVLCOPT:http-user-agent="BearTV"
