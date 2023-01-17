@@ -192,10 +192,10 @@ https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv15/index.m3u8|Referer=http://
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv16/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv17hd" group-title="Thể thao" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7a/SCTV17_SSport.png/revision/latest/scale-to-width-down/1000?cb=20211211011123&path-prefix=vi",S SPORT • SCTV17 HD | THỂ THAO & CUỘC SỐNG
 #EXTVLCOPT:http-user-agent="SCTVOnline"
-https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv17/index.m3u8|Referer=http://sctvonline.vn/
+https://vtsstr4.tv24.vn/live/SCTV17_HD_new.smil/playlist.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv18hd" group-title="KÊNH SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/dd/SCTV18_logo_2020.png/revision/latest/scale-to-width-down/1000?cb=20220215091318&path-prefix=vi",SCTV18 HD | THANH THIẾU NIÊN
 #EXTVLCOPT:http-user-agent="SCTVOnline"
-https://vtsstr4.tv24.vn/live/SCTV17_HD_new.smil/playlist.m3u8|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv18/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv19hd" group-title="KÊNH SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d1/SCTV19_logo.png/revision/latest/scale-to-width-down/1000?cb=20211119032018&path-prefix=vi",Channel T • SCTV19 HD | THỜI ĐẠI MỚI
 #EXTVLCOPT:http-user-agent="SCTVOnline"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv19/index.m3u8|Referer=http://sctvonline.vn/
