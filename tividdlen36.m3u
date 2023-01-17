@@ -323,9 +323,6 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http:/
 https://livecdn.fptplay.net/hda3/cartoonnetworkhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="" group-title="QUỐC TẾ - QNET" tvg-logo="https://i.ibb.co/vD7cGzQ/Boomerang-BEARTV.png", Boomerang
 https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 tvg-id="babyfirst" group-title="QUỐC TẾ - BEARTV" tvg-logo="https://i.ibb.co/X5gLjLF/babyfirst-BEARTV.png" , Baby First
-#EXTVLCOPT:http-user-agent="BearTV"
-https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="babytvhd" group-title="QUỐC TẾ - BEARTV" tvg-logo="https://i.ibb.co/McZF8q4/Baby-TV-BEARTV.png",Baby TV
 #EXTVLCOPT:http-user-agent="BearTV"
 https://vips-livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist_b5000000.m3u8
@@ -379,9 +376,6 @@ https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="kbsworld" group-title="QUỐC TẾ - BEARTV" tvg-logo="https://i.ibb.co/8XwH2hS/KBS-World-BEARTV.png", KBS World
 #EXTVLCOPT:http-user-agent="BearTV"
 https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="kbsworld" group-title="QUỐC TẾ TỔNG HỢP" tvg-logo="https://i.ibb.co/8XwH2hS/KBS-World-BEARTV.png",KBS World
-#EXTVLCOPT:http-user-agent="BearTV"
-https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="abcaustralia" group-title="QUỐC TẾ TỔNG HỢP" tvg-logo="https://i.ibb.co/vJL1pG6/ABC-BEARTV.png", ABC Australia
 #EXTVLCOPT:http-user-agent="BearTV"
 https://vips-livecdn.fptplay.net/hda3/australiaplus_vhls.smil/chunklist_b5000000.m3u8
@@ -422,16 +416,12 @@ http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8
 http://118.69.169.41:1935/THDT/thdttv/chunklist_w1866045054.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Fm6ZT1J/thdt2-BEARTV.png", Đồng Tháp 2 - Miền Tây
 http://202.43.109.145:1935/thdt2/thdt2/chunklist_w1048334863.m3u8
-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_720p/chunks_dvr_range-${start}-${offset}.m3u8",Hà Nội 1 HD
+#EXTINF:-1 tvg-id="HANOITV 1" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/Y8bq8Fp/HANOI1-TV-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_720p/chunks_dvr_range-${start}-${offset}.m3u8",Hà Nội 1 HD
 #EXTVLCOPT:http-user-agent="BearTV"
 https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_1080p/chunks.m3u8
 #EXTINF:-1 tvg-id="HANOITV 2" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/L5bfkfQ/HANOI2-TV-BEARTV.png" catchup="append" catchup-days="2" catchup-source="https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_720p/chunks_dvr_range-${start}-${offset}.m3u8",Hà Nội 2 HD
 #EXTVLCOPT:http-user-agent="BearTV"
 https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="HANOITV 2" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/L5bfkfQ/HANOI2-TV-BEARTV.png",Hà Nội 2 HD
-#EXTVLCOPT:http-user-agent="BearTV"
-#https://livecdn.fptplay.net/sdc/hanoitv2_hls.smil/chunklist_b2500000.m3u8
-https://live.hanoitv.vn/hntvlive/tv2live.m3u8
 #EXTINF:0 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/CV4TkJj/YENBAI-BEARTV.png", Yên Bái
 https://yenbaitv.org.vn/hls/livestream.m3u8
 #EXTINF:-1 group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/QX9wxQj/dienbientv-BEARTV.png",Điện Biên
