@@ -205,10 +205,10 @@ https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv20/index.m3u8|Referer=http://
 #EXTINF:-1 tvg-id="sctv21hd" group-title="KÊNH SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fb/SCTV21_logo_2019.png/revision/latest/scale-to-width-down/1000?cb=20220215091324&path-prefix=vi",SCTV21 HD | VIỆT NAM KÝ ỨC
 #EXTVLCOPT:http-user-agent="SCTVOnline"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv21/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:-1 tvg-id="sctv22hd" group-title="KÊNH SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/db/SCTV22_SSport_1.png/revision/latest/scale-to-width-down/1000?cb=20211122032759&path-prefix=vi",S SPORT 1 • SCTV22 HD
+#EXTINF:-1 tvg-id="sctv22hd" group-title="Thể thao" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/db/SCTV22_SSport_1.png/revision/latest/scale-to-width-down/1000?cb=20211122032759&path-prefix=vi",S SPORT 1 • SCTV22 HD
 #EXTVLCOPT:http-user-agent="SCTVOnline"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv22/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:-1 tvg-id="sctvhdpth" group-title="Thể thao" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d1/SCTV_Phim_T%E1%BB%95ng_H%E1%BB%A3p_logo.png/revision/latest/scale-to-width-down/1000?cb=20220215060745&path-prefix=vi",SCTV ASIA TOP SERIES | Phim Tổng Hợp
+#EXTINF:-1 tvg-id="sctvhdpth" group-title="KÊNH SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d1/SCTV_Phim_T%E1%BB%95ng_H%E1%BB%A3p_logo.png/revision/latest/scale-to-width-down/1000?cb=20220215060745&path-prefix=vi",SCTV ASIA TOP SERIES | Phim Tổng Hợp
 #EXTVLCOPT:http-user-agent="SCTVOnline"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctvphimtonghop/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="btv5hd" group-title="Thể thao" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fa/BTV5_logo_2015.png/revision/latest/scale-to-width-down/1000?cb=20210104104309&path-prefix=vi",S SPORT 3 • BTV5 HD | Truyền hình Bình Dương
